@@ -10,11 +10,13 @@
         android:id="@+id/btResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textReult"
+        app:layout_constraintTop_toBottomOf="@+id/textResult"
+        app:layout_constraintVertical_bias="0.271"
         tools:text="Convert" />
 
     <Spinner
@@ -32,7 +34,7 @@
         android:id="@+id/Numtochange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="92dp"
         android:ems="10"
         android:hint="@string/app_name"
         android:inputType="number"
@@ -40,9 +42,9 @@
         android:text="Enter Number "
         android:textColor="#102863"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/to" />
+        app:layout_constraintTop_toBottomOf="@+id/from" />
 
     <TextView
         android:id="@+id/txt"
@@ -57,25 +59,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/to"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:contentDescription="@string/app_name"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/from" />
-
     <TextView
-        android:id="@+id/textReult"
+        android:id="@+id/textResult"
         android:layout_width="212dp"
         android:layout_height="47dp"
         android:layout_marginTop="36dp"
         android:text="Result"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Numtochange" />
 </androidx.constraintlayout.widget.ConstraintLayout>
