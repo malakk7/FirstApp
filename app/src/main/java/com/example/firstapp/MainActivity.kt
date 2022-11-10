@@ -62,7 +62,7 @@ class MainActivity<string> : AppCompatActivity() {
 
     }
 
-  //??? create function for arrayadapter???  private fun <T> ArrayAdapter(mainActivity: MainActivity<T>, simpleListItem1: Int, options: Array<String>): SpinnerAdapter? {
+  //???  create function for arrayadapter???  private fun <T> ArrayAdapter(mainActivity: MainActivity<T>, simpleListItem1: Int, options: Array<String>): SpinnerAdapter? {
 
     }
 
